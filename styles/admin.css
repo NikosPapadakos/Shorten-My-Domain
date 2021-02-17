@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+body{
+    background-color: #E1D9D0;
+    background-image: url(shorten.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    margin: 0;
+    
+    
+}
+
+
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+
+.nav-link{
+    cursor: pointer;
+}
+
+
+img {
+    width: 40%;
+    height: 40%;
+}
+
+.navbar-brand{
+    width: 15%
+}
+
+
+.color {
+    background-color:   #0093e9 ;
+    border: 1px solid;
+    border-radius: 3px;
+    border: transparent;
+ 
+}
+
+.urls {
+    table-layout:fixed;
+}
+
+.original  {
+    overflow:auto;
+   
+}
+
+td {
+    white-space: nowrap;
+  
+}
+
+tbody {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Raleway',sans-serif;
+    color: #372a5a;
+    backdrop-filter: grayscale(80%);
+};
+
+th {
+    font-family: 'Raleway',sans-serif;
+}
+
+.tr-hover{
+    cursor: pointer;
+    background-color: rgba(241, 241, 241, 0.5);
+    font-weight: 750;
+    font-size: 1.2;
+}
+
+@media screen and (max-width:1055px) {
+    tr {
+      display: grid;
+        font-size: 1.3rem;
+    }
+    
+  }
+
+  @media screen and (max-width:1310px){
+    tr {
+        
+        font-size: 0.8rem;
+      }
+
+      .tr-hover{
+          font-size: 0.8;
+          font-weight: 750;
+      }
+  }
+
+
+  .color:hover {
+    background-color: #4cafe9;
+  }
+
+
+
+  .display {
+      background-color:#d04764 ;
+      border: 1px solid;
+      border: transparent;
+      border-radius: 10px;
+  }
+
+
+
+  .position{
+    font-size: 0.8rem!important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+  }
+
+
+
+  span > img {
+      width: 10px;
+      height: 10px;
+      animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate; 
+      margin-bottom: 4px ;
+      margin-left: 2px;
+
+  }
+
+  @keyframes blinker {  
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+
+
+  th{
+     vertical-align: middle;
+  }
+
+  .first, .second , .third{
+      color: white; 
+      font-size: 1.1rem;
+  }
+
+
+  .main{
+      display: flex;
+      flex-direction: row;
+      width: 39%;
+  }
+
+  .sumA, .sumB, .sumC {
+      margin-left: 10px;
+  }
+  
+
+
+  @media screen and (max-width:1029px) {
+    .first, .second, .third {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: row;
+      
+    }
+    span > img {
+        margin-top: 5px;
+    }
+  }
+
+ 
+  
+
+  
